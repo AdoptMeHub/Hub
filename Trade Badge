@@ -1,0 +1,31 @@
+  while wait(0.5) do
+local args = {
+    [1] = "has_talked_to_trade_quest_npc",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").API["SettingsAPI/SetBooleanFlag"]:FireServer(unpack(args))  
+local args = {
+    [1] = "TradeLicenseZone"
+}
+
+game:GetService("ReplicatedStorage").API["LocationAPI/SetLocation"]:FireServer(unpack(args)) 
+game:GetService("ReplicatedStorage").API["TradeAPI/BeginQuiz"]:FireServer() 
+
+local args = {
+    [1] = "not safe"
+}
+
+game:GetService("ReplicatedStorage").API["TradeAPI/AnswerQuizQuestion"]:FireServer(unpack(args)) 
+    local args = {
+    [1] = "safe"
+}
+
+game:GetService("ReplicatedStorage").API["TradeAPI/AnswerQuizQuestion"]:FireServer(unpack(args))  
+local args = {
+    [1] = "not safe"
+}
+
+game:GetService("ReplicatedStorage").API["TradeAPI/AnswerQuizQuestion"]:FireServer(unpack(args)) 
+game:GetService("ReplicatedStorage").API["TradeAPI/EndQuiz"]:FireServer() 
+end 
