@@ -28,4 +28,4 @@ local args = {
 
 game:GetService("ReplicatedStorage").API["TradeAPI/AnswerQuizQuestion"]:FireServer(unpack(args)) 
 game:GetService("ReplicatedStorage").API["TradeAPI/EndQuiz"]:FireServer() 
-end 
+end)
