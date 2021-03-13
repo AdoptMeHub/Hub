@@ -5,6 +5,8 @@ elseif game.PlaceId == 142823291 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Murder%20Mystery%202")
 elseif game.PlaceId ==735030788 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Royale%20High")
+elseif game.PlaceId ==566399244 then
+    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Elemental%20BattleGrounds")   
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end
