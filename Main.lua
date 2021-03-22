@@ -9,7 +9,7 @@ elseif game.PlaceId ==566399244 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Elemental%20BattleGrounds")   
 elseif game.PlaceId ==370731277 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/MeepCity")
-elseif
+elseif game.PlaceId ==6447798030 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Funky%20Friday")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
