@@ -13,4 +13,4 @@ elseif game.PlaceId ==6447798030 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Funky%20Friday")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
-end
+end 
