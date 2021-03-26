@@ -15,6 +15,8 @@ elseif game.PlaceId ==621129760 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/KAT")
 elseif game.PlaceId ==537413528 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Build%20A%20Boat")
+elseif game.PlaceId ==3527629287 then
+    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Big%20PaintBall")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end 
