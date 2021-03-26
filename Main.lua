@@ -13,6 +13,8 @@ elseif game.PlaceId ==6447798030 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Funky%20Friday")
 elseif game.PlaceId ==621129760 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/KAT")
+elseif game.PlaceId ==537413528 then
+    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Build%20A%20Boat")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end 
