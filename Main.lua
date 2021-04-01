@@ -19,6 +19,8 @@ elseif game.PlaceId ==3527629287 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Big%20PaintBall")
 elseif game.PlaceId ==192800 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Work%20At%20A%20Pizza%20Place")
+elseif game.PlaceId ==5293755937 then
+    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Speed%20Simulator")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end 
