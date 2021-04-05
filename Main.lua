@@ -21,6 +21,8 @@ elseif game.PlaceId ==192800 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Work%20At%20A%20Pizza%20Place")
 elseif game.PlaceId ==5293755937 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Speed%20Simulator")
+elseif game.PlaceId ==189707 then
+    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Natural%20Disaster%20Survival")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end 
