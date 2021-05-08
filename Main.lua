@@ -22,4 +22,3 @@ elseif game.PlaceId ==23578803 then
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end 
- 
