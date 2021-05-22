@@ -171,7 +171,7 @@ local window = library:CreateWindow('Funky Friday') do
 	local folder = window:AddFolder('Credits') do
 		folder:AddLabel({ text = 'Credits' })
 		folder:AddLabel({ text = 'Jan - UI library' })
-		folder:AddLabel({ text = 'wally - Script' })
+		folder:AddLabel({ text = 'BaconLord#6178 - Script' })
 	end
 end
 
