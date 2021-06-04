@@ -18,7 +18,7 @@ elseif game.PlaceId ==23578803 then
  elseif game.PlaceId ==4620170611 then
     T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Break%20In")
  elseif game.PlaceId ==3851622790 then
-    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Break%20In")
+    T:Load("https://raw.githubusercontent.com/AdoptMeHub/Hub/main/Break%20In%20Spare")
 else
     game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
 end 
